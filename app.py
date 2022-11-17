@@ -7,8 +7,8 @@ st.set_page_config(page_title="MAPSIA", page_icon=":rocket:")
 
 
 
-image = Image.open('images/logo.jpeg')
-st.image(image, width=600)
+#image = Image.open('images/logo.jpeg')
+#st.image(image, width=600)
 
 
 
@@ -22,8 +22,8 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_t26law.json")
 
 with st.container():
-    st.title("Welcome to MAPSIA")
-    st.write("The objective of MAPSIA is to locate and classify pavement superficial defects using Deep Learning algorithms, by means of images collected by a low-cost vehicle-mounted system.")
+    st.title("Welcome to Automatic Pavement Distress Detection by YOLOv5n using open-source Mosquitonet dataset")
+    st.write("The objective is to detect pavement superficial defects using Deep Learning algorithms, by means of images collected by a low-cost vehicle-mounted system.")
     st.write("""
         The two main problems of the state-of-the-art studies on automated pavement distress detection and categorization are:
         - :x: Lack of public, standard, comprehensive and practical pavement distress datasets.
@@ -168,7 +168,7 @@ with st.container():
     
 
     with l:
-        st.write("The MAPSIA Rocket Team is composed of Saúl Cano-Ortiz, Daniel Castro-Fresno and Pablo Martínez Ruiz del Árbol. ")
+        st.write("The Rocket Team is composed of Saúl Cano-Ortiz, Daniel Castro-Fresno and Pablo Martínez Ruiz del Árbol. ")
         st.write("Saúl is a physicist with a Master in Data Science and is a PhD candidate. His role is Data Scientist.")
         st.write("Daniel is a civil engineer, professor, director of GITECO and of the Faculty of Civil Engineering. His role is pavement expert and PhD director.")
         st.write("Pablo is a physicist, professor and Data Scientist. His role is Data Science expert and PhD co-director.")
